@@ -31,3 +31,20 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+.idea
+lib/test.js
+src/test.js
+
+### Vim template
+# swap
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
+# auto-generated tag files
+tags
+

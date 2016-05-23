@@ -1,0 +1,32 @@
+{
+  "name": "parse-server-nodemailer-adapter",
+  "version": "1.0.0",
+  "description": "Nodemailer adapter for parse server",
+  "main": "lib/index.js",
+  "dependencies": {
+    "nodemailer": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "node lib/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnu-lorien/parse-server-nodemailer-adapter.git"
+  },
+  "keywords": [
+    "parse-server",
+    "nodemailer",
+    "email-adapter"
+  ],
+  "author": "gnu_lorien",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gnu-lorien/parse-server-nodemailer-adapter/issues"
+  },
+  "homepage": "https://github.com/gnu-lorien/parse-server-nodemailer-adapter#readme"
+}
